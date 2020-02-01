@@ -6,23 +6,11 @@ class App extends Component {
 
       <div
       	style={{
-      		backgroundColor: 'skyblue',
+      		backgroundColor: '#282c34',
 
       	}}
       	>
-      	<div
-      	
-      		style = {{
-      			display: "flex",
-      			alignItems: "center",
-      			height: 50,
-      			
-      		}}
-      	>
-      		<h1>
-      		BEAN </h1>
 
-      	</div>
       	
       	<div
       	
@@ -40,10 +28,11 @@ class App extends Component {
       			paddingBottom: 0,
       		    fontFamily: 'Helvetica-Light',
       		    fontSize: 80,
+      		    color: "white",
       		    height: 200,
 			}}
 			>
-			LOGO</h1>
+			"BEAN"</h1>
       	</div>
       		
       		
@@ -101,7 +90,6 @@ class App extends Component {
         </div>
       <div
       	style = {{
-      		backgroundColor: "skyblue",
       		height: 420
       	}}
       >
