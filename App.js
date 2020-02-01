@@ -1,14 +1,12 @@
 import React, { Component } from "react";
+import './App.css';
 
 class App extends Component {
   render() {
     return (
 
       <div
-      	style={{
-      		backgroundColor: '#282c34',
-
-      	}}
+      	className = "App-header"
       	>
 
       	
@@ -25,7 +23,7 @@ class App extends Component {
       		<h1
       		style = {{
       			paddingTop: 300,
-      			paddingBottom: 0,
+      			paddingBottom: 400,
       		    fontFamily: 'Helvetica-Light',
       		    fontSize: 80,
       		    color: "white",
@@ -37,15 +35,12 @@ class App extends Component {
       		
       		
       	<div
-      	    style={{
-	          display: "flex",
-	          justifyContent: "center",
-	          alignItems: "center",
-	          paddingTop: 320,
-	          height: 100
-        	}}
+      	    style = {{
+      	  		paddingBottom: 20
+      	  		}}
         >
-       		<input 
+       		<input
+       			className = "App-username" 
        			style = {{
        			width: 350,
        			height: 20
@@ -63,6 +58,7 @@ class App extends Component {
         	}}
         >
       		<input 
+      			className = "App-username"
       			style = {{
       			width: 350,
       			height: 20
@@ -88,13 +84,7 @@ class App extends Component {
         	Login</button>
 
         </div>
-      <div
-      	style = {{
-      		height: 420
-      	}}
-      >
-      <h1></h1>
-      </div>
+
       </div>
 
     );
